@@ -4,7 +4,7 @@ import * as THREE from 'three'
  * Base
  */
 // Canvas
-const canvas = document.querySelector('canvas.webgl')
+const canvas = document.querySelector('canvas.webgl')!
 
 // Sizes
 const sizes = {
